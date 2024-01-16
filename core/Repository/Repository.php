@@ -66,7 +66,7 @@ abstract class Repository
         return $item;
     }
 
-    public function delete(int $id):void
+    public function delete(object $object):void
     {
 
         $query = $this->pdo->prepare("DELETE FROM $this->tableName WHERE id = :id");

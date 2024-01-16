@@ -21,6 +21,9 @@
                 <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="/">Home</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="?type=champion&action=create">Nouveau champion</a>
+                </li>
 
 
             </ul>
